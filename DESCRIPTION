@@ -1,0 +1,20 @@
+Package: fbsample
+Type: Package
+Title: Quota Sampling Using Facebook Advertisements
+Version: 0.1
+Date: 2017-01-07
+Author: Anon Researcher
+Maintainer: Anon Researcher
+Description: A tool to design and manage quota sampling using Facebook Advertisements.
+License: MIT License
+LazyData: true
+Imports:
+    fbRads,
+    RCurl,
+    jsonlite,
+    digest,
+    futile.logger,
+    bit64,
+    plyr,
+    data.table
+RoxygenNote: 6.0.1
